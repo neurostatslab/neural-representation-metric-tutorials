@@ -1,46 +1,59 @@
-# Neural Representation Metric Tutorials
-This website serves as a central hub of Google CoLab tutorials on different metrics to compare neural representations.
+# Quantifying Similarity between Neural Population Codes
+This website serves as a central hub of Google CoLab jupyter notebook tutorials on different metrics to compare neural representations.
 
-Blurb or link to COSYNE talks
+While notebooks should be self-contained or contain references to required background material, they're designed to complement the COSYNE 2026 Tutorial: Comparative Analysis of Neural Population Codes. Links to the lecture recordings will be posted here once they are available!
 
-::::{grid} 2
+::::::{grid} 2
+:gutter: 1
+
+:::::{grid-item}
+
+::::{grid} 1
 :gutter: 2
 
-:::{grid-item-card} Neural Tuning, Geometry, and Procrustes shape distance
-:img-top: _static/procrustes.png
-:img-alt:
-:link: https://colab.research.google.com/drive/1CIedRa_bYUgLh4pOXBClVPaVYKf0NGW6?usp=sharing
+:::{grid-item-card} Part 1: Neural Tuning, Geometry, and Procrustes shape distance
+:img-bottom: _static/procrustes.png
+:link: https://colab.research.google.com/drive/1jy5d0gqR9-DKFpQcQiCjI0_F12DhODy0?usp=sharing
 :class-card: sd-border-2
 
-Description
+Build conceptual and mathematical intuition of Procrustes distance and it's extension to linear invariance.
 :::   
    
-:::{grid-item-card} Relationship of Procrustes to RSA and CKA
-:img-top: _static/RSA_CKA.png
-:img-alt:
-:link: https://colab.research.google.com/drive/1OQVSccAibwDn5t6lxgnglxQy4Mgbgacf?usp=sharing
+:::{grid-item-card} Part 3: Exploiting Metric Space Properties in Neural Populations
+:img-bottom: _static/allen_procrustes.png
+:link: https://colab.research.google.com/drive/1fAhi1_JlbxaBJXnTReNvthW2KcJ9j2qb?usp=sharing
 :class-card: sd-border-2
 
-Description
+Demonstrate how Procrustes distance can be used on real data: computing neural similarity between brain regions and animals using data available through [AllenSDK](https://allensdk.readthedocs.io/en/latest/visual_coding_neuropixels.html).
 :::
 
-:::{grid-item-card} Quantifying Similarity between Neural Population Codes
-:img-top: _static/allen_procrustes.png
-:img-alt:
-:link: https://colab.research.google.com/drive/1YPaywZao5FVN4RwY6BMC8DaK2sAKjPC3?usp=sharing
+::::
+
+:::::
+
+:::::{grid-item}
+
+::::{grid} 1
+:gutter: 2
+
+:::{grid-item-card} Part 2: Relationship of Procrustes to RSA and CKA
+:img-bottom: _static/RSA_CKA.png
+:link: https://colab.research.google.com/drive/1WIAN5jDCTGU8KaRga2jwu4LcCo6AmVw9?usp=sharing
 :class-card: sd-border-2
 
-Description
+Build mathematical intuition of RSA and CKA, understand conditions under which they are equivalent, and show how these metrics are related to Procrustes distance.
 :::
 
-:::{grid-item-card} Soft-matching
-:img-alt:
-:class-img-top: sd-avatar-lg
+:::{grid-item-card} Part 4: Measuring Distance between Mismatched Representations
+:img-bottom: _static/soft_matching.png
+:link: https://colab.research.google.com/drive/1hksgmS67mqLr3V4_H0faNcv75FuqHnMS?usp=sharing
 :class-card: sd-border-2
 
-Description
+Soft-matching and partial soft-matching: Extend Procrustes distance to situations when 1-to-1 matches between neurons is not possible or feasible.
 :::
 ::::
+:::::
+::::::
 
 ```{toctree}
 :maxdepth: 2
