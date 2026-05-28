@@ -1,7 +1,7 @@
 # Comparative Analysis of Neural Population Codes
 This website serves as a central hub of Google CoLab jupyter notebook tutorials on different metrics to compare neural representations.
 
-While notebooks should be self-contained or contain references to required background material, they're designed to complement the COSYNE 2026 Tutorial: Comparative Analysis of Neural Population Codes. Links to the lecture recordings will be posted here once they are available!
+While notebooks should be self-contained or contain references to required background material, they're designed to complement the COSYNE 2026 Tutorial: Comparative Analysis of Neural Population Codes. You can watch the recorded live stream of the tutorial on [here on YouTube](https://www.youtube.com/live/n44xqrZ5j9U?si=4mverjwtQZMTDMae)!
 
 ::::::{grid} 2
 :gutter: 1
